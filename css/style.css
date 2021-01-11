@@ -13,7 +13,7 @@ body {
       rgba(255, 255, 255, 0),
       rgba(0, 56, 68, 0.7)
     ),
-    url(/img/background.jpg);
+    url(../img/background.jpg);
   background-size: cover;
   color: #ffffff;
 }
