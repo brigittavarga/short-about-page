@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Bluu Next";
+  src: url(../bluunext.woff2), url(../bluunext.woff);
+}
+
+body {
+  font-family: "Bluu Next", Times New Roman;
+  font-size: 24px;
+  line-height: 1.25;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(0, 56, 68, 0.7)
+    ),
+    url(/img/background.jpg);
+  background-size: cover;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 1rem;
+  margin: 10px 0 10px 0;
+}
+
+h2 {
+  font-size: 10vmin;
+}
+
+section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw;
+  text-align: center;
+}
+
+section .circle {
+  width: 20px;
+  height: 20px;
+  background-color: #ff6b6b;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s;
+}
+
+.github-link {
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  padding: 30px 0 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  margin: 0 10px 0 10px;
+  cursor: pointer;
+}
